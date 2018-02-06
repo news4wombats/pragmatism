@@ -1,30 +1,18 @@
 \documentclass[]{article}
-\usepackage{hyperref,setspace,graphicx}
-\setlength{\paperheight}{8.5in}
-\setlength{\paperwidth}{11in}
-\setlength{\pdfpageheight}{8.5in}
-\setlength{\pdfpagewidth}{11in}
-
-\setlength{\oddsidemargin}{.5 in}
-\setlength{\evensidemargin}{.5 in}
-\setlength{\textwidth}{8 in}
-\setlength{\columnsep}{.3 in}
-\setlength{\topmargin}{-.5 in}
-\setlength{\textheight}{6.5 in}
+\usepackage{hyperref,setspace,graphicx,geometry}
+\geometry{width=6in,height=9in,centering}
 
 \newcounter{authornote}[page]
 \newcommand{\authornote}[1]{\renewcommand{\thefootnote}{\fnsymbol{footnote}}\stepcounter{authornote}\footnote[\value{authornote}]{#1}\renewcommand{\thefootnote}{\arabic{footnote}}}
 
 \newcommand{\hbreak}{\par\noindent\begin{tabular*}{\linewidth}{c}\hline\hline\end{tabular*}\par}
 
-\newcommand{\authortitle}[1]{\centerline{\Huge\sc #1}}
-\newcommand{\itemtitle}[1]{\pagebreak[2]\hbreak\begin{center}{\Large\sc #1}\end{center}}
-\newcommand{\itemcomment}[1]{\noindent\emph{#1}}
-\newcommand{\itemsection}[1]{\bigskip\centerline{#1}\nopagebreak}
+\newcommand*{\authortitle}[1]{\centerline{\Huge\sc #1}}
+\newcommand*{\itemtitle}[1]{\pagebreak[2]\hbreak\begin{center}{\Large\sc #1}\end{center}}
+\newcommand*{\itemcomment}[1]{\noindent\emph{#1}}
+\newcommand*{\itemsection}[1]{\bigskip\centerline{#1}\nopagebreak}
 
 \begin{document}
-
-\twocolumn
 \authortitle{C.S. Peirce}
 
 \bigskip
@@ -49,7 +37,7 @@ Peirce's writings extend from about 1857 to near his
 death, his published works run to about 12,000 printed pages, and his known unpublished manuscripts run to about 80,000 handwritten pages. The topics on which he wrote have an immense range: mathematics, logic, metaphysics, physical science, economics, the theory of signs\ldots
 
 \paragraph{About this document:}
-This document is prepared by \href{https://www.fecundity.com}{P.D. Magnus}. Except for the preceding biography, these texts are based on electronic transcriptions by Joseph Ransdell and Brian Kariger, available at the \href{http://members.door.net/arisbe}{Arisbe website}. The biography is adapted from Robert Burch's contribution to the \href{http://plato.stanford.edu}{\emph{Stanford Encyclopedia of Philosophy}}.
+This document is prepared by \href{https://www.fecundity.com}{P.D. Magnus}. Except for the preceding biography, these texts are based on electronic transcriptions by Joseph Ransdell and Brian Kariger, available at the \href{http://www.iupui.edu/~arisbe/}{Arisbe website}. The biography is adapted from Robert Burch's contribution to the \href{http://plato.stanford.edu}{\emph{Stanford Encyclopedia of Philosophy}}.
 
 \itemtitle{[from] Some Consequences of Four Incapacities Claimed For Man}
 \itemcomment{This paper was originally published in the \emph{Journal of Speculative Philosophy} 2 (1868), pgs. 140--157. These opening paragraphs reveal Peirce's pragmatic temperament.}
