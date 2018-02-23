@@ -1,6 +1,10 @@
 \documentclass[]{article}
 \usepackage{hyperref,geometry,setspace}
 \usepackage[symbol*,perpage]{footmisc}
+% changes font to TeX Gyre Schola (Century Schoolbook)
+\usepackage{tgschola}\usepackage[T1]{fontenc}
+
+
 \geometry{width=6in,height=9in,centering}
 \begin{document}
 %\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
@@ -28,7 +32,7 @@ fancy likes to picture as our leader were he alive to-day.
 The lectures that follow were delivered at the Lowell Institute in
 Boston in November and December, 1906, and in January, 1907, at
 Columbia University, in New York. They are printed as delivered, without
-developments or notes.\footnote{[This version of lectures 1--2 was prepared by P.D. Magnus from \href{http://www.gutenberg.org/ebooks/5116}{the Project Gutenberg edition}. Additions by P.D.M. are in bracketed footnotes like this one.]} The pragmatic movement, so-called--- I do not like
+developments or notes. The pragmatic movement, so-called--- I do not like
 the name, but apparently it is too late to change it--- seems to have
 rather suddenly precipitated itself out of the air. A number of
 tendencies that have always existed in philosophy have all at once
@@ -57,6 +61,7 @@ pragmatist.
 
 ~\hfill Harvard University, April, 1907.
 
+\paragraph{About this text:} This version of lectures 1--2 was prepared by P.D. Magnus from \href{http://www.gutenberg.org/ebooks/5116}{the Project Gutenberg edition}. Additions by P.D.M. are in bracketed footnotes.
 
 \section*{Lecture I: The Present Dilemma in Philosophy}
 
@@ -95,8 +100,8 @@ and colleagues try to popularize philosophy in this very hall, but they
 soon grew dry, and then technical, and the results were only partially
 encouraging. So my enterprise is a bold one. The founder of pragmatism
 himself recently gave a course of lectures at the Lowell Institute with
-that very word in its title-flashes of brilliant light relieved
-against Cimmerian darkness!\footnote{[James is referring to lectures Charles Sanders Peirce gave at Harvard in 1903.]}
+that very word in its title--- flashes of brilliant light relieved
+against Cimmerian darkness!\footnote{[James is referring to lectures by Charles Sanders Peirce at Harvard in 1903.]}
 None of us, I fancy, understood \emph{all} that he
 said--- yet here I stand, making a very similar venture.
 
@@ -213,9 +218,10 @@ practically recognize the two types of mental make-up that I mean if
 I head the columns by the titles `tender-minded' and `tough-minded'
 respectively.
 
-\medskip
+\bigskip
 
-\begin{minipage}{.45\linewidth}
+\noindent
+\framebox{\begin{minipage}{.45\linewidth}
 \textsc{The Tender-Minded}\par
 Rationalistic (going by `principles')\\
 Intellectualistic\\
@@ -225,14 +231,14 @@ Religious\\
 Free-willist\\
 Monistic\\
 Dogmatical
-\end{minipage}\hfill
-\begin{minipage}{.45\linewidth}
+\end{minipage}}\hfill
+\framebox{\begin{minipage}{.45\linewidth}
 \textsc{The Tough-Minded}\par
 Empiricist (going by `facts')\\ Sensationalistic\\ Materialistic\\
 Pessimistic\\ Irreligious\\ Fatalistic\\ Pluralistic\\ Sceptical
-\end{minipage}
+\end{minipage}}
 
-\medskip
+\bigskip
 
 Pray postpone for a moment the question whether the two contrasted
 mixtures which I have written down are each inwardly coherent and
@@ -652,8 +658,8 @@ couched in as simple adjectives of praise or dispraise. We measure the
 total character of the universe as we feel it, against the flavor of the
 philosophy proffered us, and one word is enough.
 
-``Statt der lebendigen Natur,'' we say,\footnote{[James is quoting Goethe's \emph{Faust}. In English, the line is ``Instead of living nature in which God created man''--- beyond the lines quoted here, it continues--- ``you're surrounded by smoke and rot, animals' skeletons and dead men's bones.'']} ``da Gott die Menschen schuf
-hinein,''--- that nebulous concoction, that wooden, that straight-laced
+``Statt der lebendigen Natur,'' we say, ``da Gott die Menschen schuf
+hinein,''\footnote{[James is quoting Goethe's \emph{Faust}. In English, the line is ``Instead of living nature in which God created man''--- beyond the lines quoted here, it continues--- ``you're surrounded by smoke and rot, animals' skeletons and dead men's bones.'']}--- that nebulous concoction, that wooden, that straight-laced
 thing, that crabbed artificiality, that musty schoolroom product, that
 sick man's dream! Away with it. Away with all of them! Impossible!
 Impossible!
@@ -722,7 +728,7 @@ I hope I may lead you to find it just the mediating way of thinking that
 you require.
 
 
-\section{Lecture II: What Pragmatism Means}
+\section*{Lecture II: What Pragmatism Means}
 
 Some years ago, being with a camping party in the mountains, I
 returned from a solitary ramble to find everyone engaged in a ferocious
@@ -1026,7 +1032,7 @@ and runs them into one another most felicitously and expediently.
 This new idea is then adopted as the true one. It preserves the older
 stock of truths with a minimum of modification, stretching them just
 enough to make them admit the novelty, but conceiving that in ways as
-familiar as the case leaves possible. An outree explanation, violating
+familiar as the case leaves possible. An outr\'{e}e explanation, violating
 all our preconceptions, would never pass for a true account of a
 novelty. We should scratch round industriously till we found something
 less excentric. The most violent revolutions in an individual's beliefs
