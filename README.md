@@ -1,5 +1,9 @@
 # Readings in pragmatism
-Classic readings in pragmatism and American philosophy, cleaned up and prepared in LaTeX for educational use by P.D. Magnus.
+Classic readings in pragmatism and American philosophy
+
+Most are cleaned up and prepared in LaTeX for educational use by P.D. Magnus.
+
+Contributions in Markdown format (for PanDoc) are prepared by Matthew Brown.
 
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
